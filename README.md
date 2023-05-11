@@ -1,4 +1,4 @@
-# ShopNest | Modular e-commerce API built with Nest.js.
+# ShopNest | Modular e-commerce API built with Nest.js & TypeScript.
 
 ```
 # development
