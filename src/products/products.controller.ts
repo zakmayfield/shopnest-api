@@ -8,8 +8,8 @@ export class ProductsController {
 
   @Get()
   async getAllProducts(
-    @Query('skip') skip?: number,
-    @Query('take') take?: number,
+    @Query('skip') skip?: number | undefined,
+    @Query('take') take?: number | undefined,
     @Query('cursor') cursor?: Prisma.ProductWhereUniqueInput,
     @Query('where') where?: Prisma.ProductWhereInput,
     @Query('orderBy') orderBy?: Prisma.ProductOrderByWithRelationInput,
